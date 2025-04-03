@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farm Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=gRP3bisR"></script>
+
+</head>
+<body>
+    <h1>FARM ASSISTANT</h1>
+    <div id="container">
+        <div id="chatbox">
+            <div id="mainChat">
+                <p class='botText'><span>Hi there!</span></p>
+            </div>
+            <div id="followUpChat" style="display: none;">
+                <p class='botText'>Follow-up questions:</p>
+            </div>
+        </div>
+        <div id="userInput">
+            <input id="textInput" type="text" name="userMessage" placeholder="Type your message...">
+            <input id="buttonInput" type="submit" value="Send"/>
+            <button id="voiceButton">Voice Input</button>
+            <input type="file" id="imageInput" accept="image/*" style="display: none;">
+            <button id="uploadImageButton">Upload Image</button>
+            <button id="deleteButton">Delete Last</button>
+            <button id="weatherButton">Get Weather</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

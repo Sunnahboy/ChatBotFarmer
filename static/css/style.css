@@ -1,0 +1,151 @@
+/* CSS styles for Farm Assistant */
+body {
+    font-family: 'Roboto', 'Open Sans', 'Lato', sans-serif;
+    background-image: url('https://wallpaperset.com/w/full/4/0/2/47595.jpg');
+    background-size: cover; /* Cover the entire background */
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh
+}
+
+h1 {
+    text-align: center;
+    color: #faf9f8; /* White color for the title */
+    margin-top: 20px;
+}
+
+#container {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+#chatbox {
+    background-color: #484644; /* Dark background for chat box */
+    color: #edebe9; /* Light text color for chat box */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.botText, .userText {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.botText span, .userText span {
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    max-width: 70%;
+    word-wrap: break-word;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.botText span {
+    background-color: #484644; /* Dark background for bot text */
+}
+
+.userText span {
+    background-color: #605e5c; /* Dark background for user text */
+    float: right;
+}
+
+#userInput {
+    background-color: #323130; /* Dark background for user input */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#textInput {
+    border: 1px solid #605e5c; /* Dark border for input field */
+    border-radius: 8px;
+    padding: 12px 15px;
+    width: calc(70% - 20px);
+    font-size: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    color: #ff0000; /* Red color for input text */
+}
+
+#buttonInput, #voiceButton, #uploadImageButton, #deleteButton, #weatherButton {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+#buttonInput {
+    background-color: #60bd84; /* Greenish button color */
+    color: #fff; /* White color for button text */
+}
+
+#buttonInput:hover {
+    background-color: #3399b1; /* Darker greenish hover color */
+}
+
+/* Weather display styles */
+.weather-container {
+    background-color: #3a3a3a;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.section-title {
+    color: #60bd84;
+    border-bottom: 1px solid #60bd84;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+.weather-info p {
+    margin: 8px 0;
+}
+
+.info-label {
+    font-weight: bold;
+    color: #60bd84;
+}
+
+.suggestions-container {
+    background-color: #3a3a3a;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.suggestions-list {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+.suggestions-list li {
+    margin-bottom: 8px;
+}
+
+.error {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    #container {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    #textInput {
+        width: calc(100% - 20px);
+    }
+}
