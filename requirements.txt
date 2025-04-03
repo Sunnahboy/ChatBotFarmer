@@ -1,6 +1,6 @@
-Flask
+flask
 google-generativeai
 spacy
-Pillow
 markdown
-dotenv
+python-dotenv
+pillow
