@@ -1,0 +1,34 @@
+# created by virtualenv automatically
+.venv/Lib
+# Node.js / JavaScript
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environment variable file (important to keep this private)
+.env
+
+
+# Logss
+*.log
+
+# IDE or editor-specific files
+.idea/
+.vscode/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Other directories you might want to exclude
+/dist
+/build
+/coverage
