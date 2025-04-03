@@ -4,3 +4,6 @@ spacy
 markdown
 python-dotenv
 pillow
+fuzzywuzzy
+python-Levenshtein
+requests
