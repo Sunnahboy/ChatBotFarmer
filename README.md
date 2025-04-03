@@ -6,6 +6,8 @@ A specialized agricultural chatbot designed to assist farmers with information, 
 
 Farm Assistant is an interactive web application that uses AI to provide farmers with relevant information about crop management, livestock, weather conditions, disease identification, and more. The application features speech recognition, image upload capabilities, and real-time weather data retrieval.
 
+## LIVE DEMO check here https://chatbotfarmer-6.onrender.com
+
 ## ✨ Features
 
 - **Intelligent Chat Interface**: Converse with an AI-powered assistant specialized in agricultural topics
@@ -48,7 +50,7 @@ farm_assistant/
 
 1. **Clone the repository**
    ```
-   git clone https://github.com/yourusername/farm-assistant.git
+   git clone https://github.com/Sunnahboy/farm-assistant.git
    cd farm-assistant
    ```
 
